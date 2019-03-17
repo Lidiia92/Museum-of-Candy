@@ -51,3 +51,21 @@ body {
         font-size: 3rem;
     }
 }
+
+/* Section styling */
+.section-heading {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.lead {
+    color: #f49fb8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
