@@ -19,3 +19,35 @@ body {
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
 }
+
+#headingGroup span{
+    color: #ea1c2c;
+}
+
+/* Museum of Candy h2 main headings */
+#headingGroup {
+    margin-top: 3rem;
+}
+
+#headingGroup h2{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1300px) {
+    #headingGroup h2{
+        font-weight: 100;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headingGroup {
+        margin-top: 4em;
+    }
+
+    #headingGroup h2{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
