@@ -68,4 +68,14 @@ body {
 
 .content {
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    transition: background-color 1s ease;
+}
+
+#mainNavbar.scrolled {
+    background-color: rgb(222, 192, 222);
+    transition: background-color 1s ease;
 }
